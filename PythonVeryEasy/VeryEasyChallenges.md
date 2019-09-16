@@ -1,4 +1,4 @@
-# Very Easy Challenges found on Edabit.com
+# Very Easy Challenges Found on Edabit.com
 
 ## Each challenge gets steadily harder
 
