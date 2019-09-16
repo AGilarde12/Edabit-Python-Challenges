@@ -1,3 +1,7 @@
+# Very Easy Challenges fround on Edabit.com
+
+## Each challenge gets steadily harder
+
 Create a function that takes a number as an argument, increments the number by +1 and returns the result.
 ```python
 def addition(num):
@@ -69,4 +73,27 @@ def get_first_value(number_list):
 	return(first)
 ```
 
+Create a function that returns True when less or equal to zero and False when greater than 0
+```python
+def less_than_or_equal_to_zero(num):
+	if num <= 0:
+		return(True)
+	elif num > 0:
+		return(False)
+```
+
+Write two functions:
+
+to_int() : A function to convert a string to an integer.
+to_str() : A function to convert an integer to a string
+
+```python
+def to_int(txt):
+	convert_int = int(txt)
+	return(convert_int)
+
+def to_str(num):
+	convert_str = str(num)
+	return(convert_str)
+```
 
