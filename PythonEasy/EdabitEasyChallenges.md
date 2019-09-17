@@ -18,3 +18,26 @@ def remove_smallest(lst):
   	lst.remove(min(lst))
   return lst
 ```
+Given a list of integers, return the difference between the largest and smallest integers in the list.
+```python
+def difference(nums):
+	return(max(nums)-min(nums))
+```
+
+Create a function that takes two strings as arguments and return either True or False depending on whether the total number of characters in the first string is equal to the total number of characters in the second string.
+```python
+def comp(txt1, txt2):
+	if len(txt1) == len(txt2):
+		return(True)
+	else:
+		return(False)
+```
+
+Write a function to check if a list contains a particular number.
+```python
+def check(lst, el):
+	if el in lst:
+		return(True)
+	else:
+		return(False)
+```
