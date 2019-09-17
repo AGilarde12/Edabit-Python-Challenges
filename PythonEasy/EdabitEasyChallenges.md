@@ -41,3 +41,40 @@ def check(lst, el):
 	else:
 		return(False)
 ```
+Create a function that takes a single string as argument and returns an ordered list containing the indexes of all capital letters in the string.
+```python
+def index_of_caps(word):
+ return [index for index, letter in enumerate(word) if letter.isupper()]
+```
+
+Create a function to concatenate two integer lists.
+```python
+def concat(lst1, lst2):
+	return(lst1 + lst2)
+```
+Create a function that returns True if a string is empty and False otherwise.
+```python
+def is_empty(s):
+	if len(s) == 0:
+		return(True)
+	else:
+		return(False)
+```
+
+Write a function to check if a list contains a particular number.
+```python
+def check(lst, el):
+	if el in lst:
+		return(True)
+	else:
+		return(False)
+```
+
+Create a function that accepts a list and returns the last item in the list. The list can be either homogeneous or heterogeneous.
+```python
+def get_last_item(lst):
+	return(lst[-1])
+```
+
+
+
