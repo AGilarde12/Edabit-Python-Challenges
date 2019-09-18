@@ -15,5 +15,22 @@ def programmers(one, two, three):
 ```
 
 Create a function that returns True if an integer is divisible by 5, and false otherwise.
-IN PROGRESS
-https://edabit.com/challenge/49pyDP8dE3pJ2dYMW
+```python
+def divisible_by_five(n):
+	if n % 5 == 0:
+		return(True)
+	else:
+		return(False)
+```
+
+Write a function that validates whether two strings are identical. Make it case insensitive.
+```python
+#("hello", "hELLo") ➞ True
+def match(s1, s2):
+	if s1.lower() == s2.lower():
+		return(True)
+	else:
+		return(False)
+```
+
+
