@@ -32,5 +32,12 @@ def match(s1, s2):
 	else:
 		return(False)
 ```
+Create a function that takes an integer and outputs an n x n square solely consisting of the integer n.
+```python
+#Ex - square_patch(3) ➞ [
+  [3, 3, 3],
+  [3, 3, 3],
+  [3, 3, 3]
+]
 
 
