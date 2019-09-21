@@ -40,4 +40,11 @@ Create a function that takes an integer and outputs an n x n square solely consi
   [3, 3, 3]
 ]
 
+#####in progress####
+def square_patch(n):
+	if n >= 0:
+		for i in range(n):    
+   	n.append(i)
+	if n < 0:
+		return()
 
