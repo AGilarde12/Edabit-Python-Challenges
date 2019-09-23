@@ -32,6 +32,13 @@ def match(s1, s2):
 	else:
 		return(False)
 ```
+Create a function that takes in a list and returns a list of the accumulating sum.
+```python
+#accumulating_list([1, 5, 7]) ➞ [1, 6, 13]
+def accumulating_list(list):
+ return [sum(list[:i+1]) for i in range(len(list))]
+```
+
 Create a function that takes an integer and outputs an n x n square solely consisting of the integer n.
 ```python
 #Ex - square_patch(3) ➞ [
