@@ -68,4 +68,14 @@ def split_code(item):
 ```
 
 Create a function that takes a number (from 1 - 60) and returns a corresponding string of hyphens.
+```python
+def num_to_dashes(num):
+	return(num * "-")
+```
+
+Given two strings, first_name and last_name, return a single string in the format "last, first".
+```python
+def concat_name(first_name, last_name):
+	return(last_name + ", " + first_name)
+```
 
