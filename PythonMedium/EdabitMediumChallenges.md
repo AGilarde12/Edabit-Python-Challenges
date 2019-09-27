@@ -54,4 +54,18 @@ def square_patch(n):
    	n.append(i)
 	if n < 0:
 		return()
+```
+
+
+You have a list of item codes with the following format: "[letters][digits]"
+Create a function that splits these strings into their alphabetic and numeric parts.
+
+```python
+def split_code(item):
+ head = item.rstrip('0123456789')
+ tail = item[len(head):]
+ return[head, int(tail)]
+```
+
+Create a function that takes a number (from 1 - 60) and returns a corresponding string of hyphens.
 
