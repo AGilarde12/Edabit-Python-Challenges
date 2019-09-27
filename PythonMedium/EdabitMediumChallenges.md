@@ -79,3 +79,9 @@ def concat_name(first_name, last_name):
 	return(last_name + ", " + first_name)
 ```
 
+Create a function that returns the ASCII value of the passed in character.
+```python
+def ctoa(char):
+	return(ord(char))
+```
+
