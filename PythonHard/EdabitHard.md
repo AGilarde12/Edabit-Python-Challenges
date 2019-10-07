@@ -37,3 +37,29 @@ def empty_sq(step):
 	return 8*sum([i for i in range(1,step)])
 ```
 
+
+Create a function that takes a list of date objects and return the "longest streak" (i.e. longest number of consecutive days in a row).
+longest_streak([
+  {
+    "date": "2019-09-18"
+  },
+  {
+    "date": "2019-09-19"
+  },
+  {
+    "date": "2019-09-20"
+  },
+  {
+    "date": "2019-09-26"
+  },
+  {
+    "date": "2019-09-27"
+  },
+  {
+    "date": "2019-09-30"
+  }
+]) ➞ 3
+
+```python
+## IN PROGRESS
+https://edabit.com/challenge/Hmx32xScJEm9mMH3B
