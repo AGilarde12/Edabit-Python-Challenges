@@ -37,29 +37,18 @@ def empty_sq(step):
 	return 8*sum([i for i in range(1,step)])
 ```
 
-
-Create a function that takes a list of date objects and return the "longest streak" (i.e. longest number of consecutive days in a row).
-longest_streak([
-  {
-    "date": "2019-09-18"
-  },
-  {
-    "date": "2019-09-19"
-  },
-  {
-    "date": "2019-09-20"
-  },
-  {
-    "date": "2019-09-26"
-  },
-  {
-    "date": "2019-09-27"
-  },
-  {
-    "date": "2019-09-30"
-  }
-]) ➞ 3
+A quadratic equation a x² + b x + c = 0 has either 0, 1, or 2 distinct solutions for x. Given a, b and c, you should return the number of solutions to the equation.
 
 ```python
-## IN PROGRESS
-https://edabit.com/challenge/Hmx32xScJEm9mMH3B
+def solutions(a, b, c):
+    if ((b * b) - (4 * a * c)) > 0:
+        return 2
+    elif ((b * b) - (4 * a * c)) == 0:
+        return 1
+    else:
+        return 0
+	
+```
+
+
+
